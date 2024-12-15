@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Header Section -->
+  <header class="bg-gray-800 p-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">My Portfolio</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="ff.html" class="hover:text-teal-400">About</a></li>
+          <li><a href="pr.html" class="hover:text-teal-400">Projects</a></li>
+          <li><a href="c.html" class="hover:text-teal-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-12">
+
+  
+ <div class="flex">
+    <div class="container mx-auto text-center ">
+      <h2 class="text-6xl font-bold mb-4 text-teal-400">About Me</h2>
+      
+      <h3 class="text-2xl font-bold mb-4">Hello, It's Me</h3>
+      <h1 class="text-2xl font-bold mb-4 text-shadwo">KESHAV RATHVE</h1>
+      <h3>And I'm a</h3><br>
+      <p class="text-gray-400 max-w-xl mx-auto">
+         passionate web developer with experience in HTML, CSS, JavaScript, and Tailwind CSS. I love building responsive and user-friendly websites.
+      </p>
+      
+    </div>
+    <div ><img class="rounded-full" src="j.png" alt=""></div>
+</div>
+
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-12 bg-gray-800">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-8">My Projects</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project Card -->
+        <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-bold mb-2">Calculator</h3>
+          
+          <a href="#" class="text-teal-400 hover:underline mt-4 block">View Project</a>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold mb-2">Facebook</h3>
+            
+            <a href="#" class="text-teal-400 hover:underline mt-4 block">View Project</a>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold mb-2">Instagram</h3>
+            
+            <a href="#" class="text-teal-400 hover:underline mt-4 block">View Project</a>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold mb-2">Whatsapp</h3>
+            
+            <a href="#" class="text-teal-400 hover:underline mt-4 block">View Project</a>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold mb-2">LinkedIn</h3>
+            
+            <a href="#" class="text-teal-400 hover:underline mt-4 block">View Project</a>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold mb-2">Task</h3>
+            
+            <a href="#" class="text-teal-400 hover:underline mt-4 block">View Project</a>
+          </div>
+        <!-- Duplicate and customize more project cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+      <p class="text-gray-400 mb-6">Feel free to reach out for collaboration or just a friendly chat!</p>
+      <form id="contactForm" class="max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 bg-gray-700 text-white rounded-lg">
+        <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 bg-gray-700 text-white rounded-lg">
+        <textarea placeholder="Your Message" class="w-full p-3 mb-4 bg-gray-700 text-white rounded-lg"></textarea>
+        <button type="submit" class="w-full p-3 bg-teal-500 rounded-lg hover:bg-teal-400">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-center py-4">
+    <p class="text-gray-400">&copy; 2024 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
